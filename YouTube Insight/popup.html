@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Insight</title>
+    <style>
+        body {
+            width: 300px;
+            background-color: #121212;
+            color: #E0E0E0;
+            font-family: 'Arial', sans-serif;
+            padding: 15px;
+            text-align: center;
+        }
+        button {
+            background-color: #BB86FC;
+            color: #121212;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #9768D1;
+            transform: scale(1.05);
+        }
+        #status {
+            margin-top: 15px;
+            color: #B0B0B0;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: #BB86FC;">YouTube Insight</h2>
+    <p>Generate smart video summaries instantly!</p>
+    <button id="generateSummary">Get Video Insight</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
